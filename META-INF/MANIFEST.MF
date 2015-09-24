@@ -1,0 +1,11 @@
+Manifest-Version: 1.0 
+Bundle-ActivationPolicy: lazy 
+Bundle-Name: Baas Impl
+Bundle-Version: 2.2.0
+Bundle-Activator: com.digiwes.baas.Activator
+Bundle-ManifestVersion: 2
+Carbon-Component: UIBundle
+Import-Package: com.digiwes.baas.interf,
+ org.osgi.framework
+Bundle-SymbolicName: baas-impl
+Export-Package: com.digiwes.baas.impl
